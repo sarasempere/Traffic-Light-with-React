@@ -4,9 +4,9 @@ export function Home() {
 	const [color, setColor] = useState();
 
 	return (
-		<div className="container">
-			<div className="palito"></div>
-			<div className="text-center mt-5 semaforo">
+		<div className="container position-relative">
+			<div className="palito position-absolute top-0 start-50 translate-middle"></div>
+			<div className="text-center mt-5 semaforo position-absolute top-0 start-50 translate-middle">
 				<div className="container">
 					<div
 						onClick={() => setColor("red")}
